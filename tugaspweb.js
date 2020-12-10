@@ -15,7 +15,7 @@ function bukaModal() {
 function tutupModal() {
     bgHitam.style.display = "none";
     kotakPutih.style.display = "none";
-    if (inputUsername.value == '192410101017' && inputPassword.value == 'anakcantik'){
+    if (inputUsername.value == 'pweb_C' && inputPassword.value == '123123'){
         window.location.href = "indexx.html"
     }
 };
@@ -23,10 +23,10 @@ function tutupModal() {
 function login() {
     let inputUsername = document.querySelector('#username');
     let inputPassword = document.querySelector('#password');
-    if (inputUsername.value == '192410101017' && inputPassword.value == 'anakcantik') {
+    if (inputUsername.value == 'pweb_C' && inputPassword.value == '123123') {
         bukaModal();
     } else {
-        modalHeading.innerText = `Maaf username ${inputUsername.value} tidak terdaftar.`;
+        modalHeading.innerText = `invalid username and password ${inputUsername.value}.`;
         modalHeading.style.color="red";
         bukaModal();
     }
